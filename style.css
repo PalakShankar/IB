@@ -1,0 +1,64 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #00FF00;
+    margin: 0;
+    padding: 0;
+    color: #171717;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #12e12e;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust the max height as needed */
+}
+
+.course img {
+    max-height: none; /* Reset max height for certificate images */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+/* Additional Styles for Projects */
+#projects {
+    background-color: #f8f8f8; /* Adjust as needed */
+    padding: 2rem;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
